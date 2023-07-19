@@ -1,13 +1,15 @@
+/****** Main Styling ******/
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #222;
-  background-color: #fff;
+  background-color: #fafafa;
   text-align: center;
   line-height: 1.4em;
 }
 
-main {
+.container {
   padding: 0;
   margin-top: 40px;
 }
@@ -16,10 +18,21 @@ h3 {
   margin-top: 30px;
 }
 
+.footer {
+  margin-top: 40px;
+}
 
-
-.user-stories li {
-  margin-bottom: 1em;
+.user-stories {
+  position: relative;
+  text-align: justify;
+  max-width: 700px;
+  margin: 15px auto;
+}
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
 }
 
 a {
@@ -27,6 +40,8 @@ a {
 }
 
 form {
+  border: solid 1px black;
+  border-radius: 5px;
   margin: 10px auto;
   padding: 20px;
   max-width: 600px;
@@ -40,7 +55,7 @@ input {
   padding: 5px;
 }
 
-input[type='text'] {
+input[type="text"] {
   width: 220px;
   text-align: center;
 }
